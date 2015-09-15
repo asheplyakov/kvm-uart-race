@@ -1,0 +1,4 @@
+#!/bin/sh
+
+"${0%/*}/qemu-nbd-torture.sh" &
+"${0%/*}/run-qemu-dummy-vms.sh"
